@@ -1,0 +1,108 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #FFFFFF;
+    background: #fff;
+    color: #222;
+    font-family: Source Sans Pro;
+}
+
+.sidebar {
+    height: 100%;
+    width: 367px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #FFFFFF;
+}
+
+.paralect {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 30px;
+}
+
+.start-up-summer {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    margin-top: 5px;
+}
+
+.sidebar-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50%;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    background: url("vector.svg") 43% 20% no-repeat;
+}
+
+.aside-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+}
+
+.aside-nav ul li {
+    margin: 10px 0;
+}
+
+.aside-nav ul li a {
+    text-decoration: none;
+    color: #B9B9B9;
+}
+
+.aside-nav ul li a.pink {
+    color: #FF3C5A;
+}
+
+.pink {
+    color: #FF3C5A;
+}
+
+.aside-nav ul li a,
+.aside-nav ul li img {
+    vertical-align: middle;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    position: absolute;
+    width: calc(100% - 367px - 20px);
+    left: 367px;
+    top: 20px;
+    background: #EDEDED;
+    border-radius: 50px;
+    margin: 20px 20px 20px 20px;
+}
+
+.logo div {
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.icon-svg {
+    width: 20px;
+    height: 20px;
+    color: #B9B9B9;
+    margin-right: 5px;
+}
