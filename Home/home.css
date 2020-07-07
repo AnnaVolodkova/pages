@@ -1,0 +1,166 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #FFFFFF;
+    background: #fff;
+    color: #222;
+    font-family: Source Sans Pro;
+}
+
+.sidebar {
+    height: 100%;
+    width: 367px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #FFFFFF;
+}
+
+.paralect {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 30px;
+}
+
+.start-up-summer {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.sidebar-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50%;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    background-image: url("vector.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.aside-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+}
+
+
+.aside-nav ul li {
+    margin: 10px 0;
+}
+
+.aside-nav ul li a {
+    text-decoration: none;
+    color: #B9B9B9;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    position: absolute;
+    width: calc(100% - 367px - 20px);
+    left: 367px;
+    top: 20px;
+    background: #EDEDED;
+    border-radius: 50px;
+    margin: 20px 20px 20px 20px;
+}
+
+main header {
+    text-align: center;
+    width: 100%;
+    height: calc(100% / 4);
+}
+
+.article-container {
+    width: 80%;
+    height: calc(100% - (100% / 4));
+}
+
+.main-container, .article-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-between;
+
+}
+
+.article-item {
+    width: 100%;
+}
+
+.rect {
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    width: 202px;
+    height: 202px;
+    margin: 20px 0px;
+}
+
+.pink {
+    color: #FF3C5A;
+}
+
+.explain-layout {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.logo div {
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.icon-svg {
+    width: 20px;
+    height: 20px;
+    color: #B9B9B9;
+    margin-right: 5px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: calc((100% - 808px) / 3);
+}
+
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-spasing {
+    margin-left: calc((100% - 808px) / 3);
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+
