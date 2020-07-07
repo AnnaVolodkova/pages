@@ -131,6 +131,7 @@ input {
     float:right;
     background-color: #FF3C5A;
     color: #FFFFFF;
+    padding: 5px 7px;
 }
 
 .form-container label{
