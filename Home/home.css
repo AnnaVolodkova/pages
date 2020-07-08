@@ -58,6 +58,11 @@ main header {
 .flex-container {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.float-container{
+    width: 100%;
 }
 
 

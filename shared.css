@@ -17,36 +17,19 @@ body {
     background-color: #FFFFFF;
 }
 
-.paralect {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 28px;
-    line-height: 30px;
+.logo{
+    margin: 20px 0 50px 0;
+    position: relative;
+    top: 50px;
 }
-
-.start-up-summer {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 30px;
-    margin-top: 5px;
-}
-
-.sidebar-container {
+.sidebar-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     height: 50%;
 }
 
-.logo {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 50%;
-    background: url("vector.svg") 43% 20% no-repeat;
-}
+
 
 .aside-nav {
     display: flex;
@@ -54,6 +37,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 50%;
+    margin-top: 30px;
 }
 
 .aside-nav ul li {
@@ -87,12 +71,13 @@ ul {
 
 main {
     position: absolute;
-    width: calc(100% - 367px - 20px);
+    width: calc(100% - 367px - 40px);
     left: 367px;
     top: 20px;
     background: #EDEDED;
     border-radius: 50px;
     margin: 20px 20px 20px 20px;
+
 }
 
 .logo div {
@@ -106,3 +91,6 @@ main {
     color: #B9B9B9;
     margin-right: 5px;
 }
+
+
+
